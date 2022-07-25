@@ -10,6 +10,7 @@ root.geometry("250x200")
 # List of possible notes, in order
 notes = ["C", "C#/Db", "D", "D#/Eb", "E", "F", "F#/Gb", "G", "G#/Ab", "A", "A#/Bb", "B"]
 
+mode = 1
 
 # Function to generate the note given in the question label.
 def generate_note_index():
